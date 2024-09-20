@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header, footer{
+    background-color: #008374;
+    color: aliceblue;
+    padding: 20px 80px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.inicio{
+    background-color: #23a092;
+    height: 430px;
+    padding-top: 80px;
+}
+.conteudo{
+    color: aliceblue;
+    padding-left: 80px;
+    width: 600px;
+}
+.tInicio{
+    font-size: 50px;
+}
+.pInicio{
+    font-size: 40px;
+}
+.caixa{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+}
+.diferente{
+    margin: 100px 120px;
+}
+h4{
+    font-weight: 100;
+    margin-top: 10px;
+}
+.planos {
+    margin: 50px 80px;
+}
+.card{
+    background-color: #edecec;
+    width: 350px;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.linha{
+    height: 30px;
+}
+.clara{
+    background-color: #f6a256;
+}
+.escura{
+    background-color: #ff912d;
+}
+h3{
+    font-size: 25px;
+}
+h5{
+    font-size: 20px;
+    margin: 8px 0;
+    font-weight: 200;
+}
+.cinza{
+    color: gray;
+}
+footer.menu{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+button{
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 5px 7px;
+}
+.noticias{
+    width: 350px;
+}
+.noticias h3{
+    font-weight: 200;
+}
+.contato{
+    background-color: #23a092;
+    height: 500px;
+    color: #edecec;
+    padding: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+label{
+    color: #edecec;
+    font-size: 24px;
+}
+.Ctitulo{
+    font-size: 30px;
+}
+.cTexto{
+    font-size: 24px;
+}
+button{
+    width: 150px;
+    margin-top: 20px;
+}
+form input{
+    width: 500px;
+    height: 30px;
+}
+a:hover{
+    color: rgb(164, 164, 164);
+}
+a{
+    transition: 1s ease-in-out;
+}
